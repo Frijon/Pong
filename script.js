@@ -61,6 +61,3 @@ function startGame() {
 function stopGame() {
 	noLoop();
 }
-
-//fix ball acceleration over time!!
-//fix paddle top and bottom ball bounce-off
