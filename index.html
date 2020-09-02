@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pong</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="input.js"></script>
+		<script src="paddle.js"></script>
+		<script src="ball.js"></script>
+    <script src="script.js"></script>
+		<div class="arial"><p>Movement for left Player: "w" and "s"</p>
+		<p>Movement for right Player: "arrow up" and "arrow down"</p>
+		<p id="leftPoints"></p>
+		<p id="rightPoints"></p></div>
+		<input id="startButton" type="button" value="Start" onclick="startGame()" />
+		<input id="stopButton" type="button" value="Stop" onclick="stopGame()" />
+		<input id="restartButton" type="button" value="Restart" onclick="restartGame()" />
+  </body>
+</html>
